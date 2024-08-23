@@ -32,8 +32,11 @@ dependencies:
   - azure-storage-files-datalake-cpp=12.11.0
   - babel=2.14.0
   - beautifulsoup4=4.12.3
+  - biopython=1.84
   - bleach=6.1.0
   - blinker=1.8.2
+  - brotli=1.1.0
+  - brotli-bin=1.1.0
   - brotli-python=1.1.0
   - bzip2=1.0.8
   - c-ares=1.33.0
@@ -47,6 +50,8 @@ dependencies:
   - charset-normalizer=3.3.2
   - click=8.1.7
   - comm=0.2.2
+  - contourpy=1.2.1
+  - cycler=0.12.1
   - debugpy=1.8.5
   - decorator=5.1.1
   - defusedxml=0.7.1
@@ -54,6 +59,7 @@ dependencies:
   - exceptiongroup=1.2.2
   - executing=2.0.1
   - flask=3.0.3
+  - fonttools=4.53.1
   - fqdn=1.5.1
   - freetype=2.12.1
   - gflags=2.2.2
@@ -96,6 +102,7 @@ dependencies:
   - jupyterlab_pygments=0.3.0
   - jupyterlab_server=2.27.3
   - jupyterlab_widgets=3.0.13
+  - kiwisolver=1.4.5
   - krb5=1.21.3
   - lcms2=2.16
   - lerc=4.0.0
@@ -145,9 +152,12 @@ dependencies:
   - lz4-c=1.9.4
   - markdown-it-py=3.0.0
   - markupsafe=2.1.5
+  - matplotlib=3.9.2
+  - matplotlib-base=3.9.2
   - matplotlib-inline=0.1.7
   - mdurl=0.1.2
   - mistune=3.0.2
+  - munkres=1.1.4
   - narwhals=1.5.3
   - nbclient=0.10.0
   - nbconvert=7.16.4
@@ -189,6 +199,7 @@ dependencies:
   - pygments=2.18.0
   - pyobjc-core=10.3.1
   - pyobjc-framework-cocoa=10.3.1
+  - pyparsing=3.1.2
   - pysocks=1.7.1
   - python=3.10.13
   - python-dateutil=2.9.0
@@ -199,6 +210,7 @@ dependencies:
   - pytz=2024.1
   - pyyaml=6.0.2
   - pyzmq=26.2.0
+  - qhull=2020.2
   - qtconsole-base=5.5.2
   - qtpy=2.4.1
   - re2=2023.09.01
@@ -235,6 +247,7 @@ dependencies:
   - typing_utils=0.1.0
   - tzdata=2024a
   - tzlocal=5.2
+  - unicodedata2=15.1.0
   - uri-template=1.3.0
   - urllib3=2.2.2
   - validators=0.33.0

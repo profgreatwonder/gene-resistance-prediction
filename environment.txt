@@ -30,8 +30,11 @@ azure-storage-common-cpp=12.7.0=hf91904f_1
 azure-storage-files-datalake-cpp=12.11.0=h14965f0_1
 babel=2.14.0=pyhd8ed1ab_0
 beautifulsoup4=4.12.3=pyha770c72_0
+biopython=1.84=py310h936d840_0
 bleach=6.1.0=pyhd8ed1ab_0
 blinker=1.8.2=pyhd8ed1ab_0
+brotli=1.1.0=h0dc2134_1
+brotli-bin=1.1.0=h0dc2134_1
 brotli-python=1.1.0=py310h9e9d8ca_1
 bzip2=1.0.8=hfdf4475_7
 c-ares=1.33.0=h51dda26_0
@@ -45,6 +48,8 @@ chardet=5.2.0=py310h2ec42d9_1
 charset-normalizer=3.3.2=pyhd8ed1ab_0
 click=8.1.7=unix_pyh707e725_0
 comm=0.2.2=pyhd8ed1ab_0
+contourpy=1.2.1=py310hb3b189b_0
+cycler=0.12.1=pyhd8ed1ab_0
 debugpy=1.8.5=py310he0a0c5d_0
 decorator=5.1.1=pyhd8ed1ab_0
 defusedxml=0.7.1=pyhd8ed1ab_0
@@ -52,6 +57,7 @@ entrypoints=0.4=pyhd8ed1ab_0
 exceptiongroup=1.2.2=pyhd8ed1ab_0
 executing=2.0.1=pyhd8ed1ab_0
 flask=3.0.3=pyhd8ed1ab_0
+fonttools=4.53.1=py310h936d840_0
 fqdn=1.5.1=pyhd8ed1ab_0
 freetype=2.12.1=h60636b9_2
 gflags=2.2.2=hb1e8313_1004
@@ -94,6 +100,7 @@ jupyterlab=4.2.4=pyhd8ed1ab_0
 jupyterlab_pygments=0.3.0=pyhd8ed1ab_1
 jupyterlab_server=2.27.3=pyhd8ed1ab_0
 jupyterlab_widgets=3.0.13=pyhd8ed1ab_0
+kiwisolver=1.4.5=py310h88cfcbd_1
 krb5=1.21.3=h37d8d59_0
 lcms2=2.16=ha2f27b4_0
 lerc=4.0.0=hb486fe8_0
@@ -143,9 +150,12 @@ llvm-openmp=18.1.8=h15ab845_1
 lz4-c=1.9.4=hf0c8a7f_0
 markdown-it-py=3.0.0=pyhd8ed1ab_0
 markupsafe=2.1.5=py310hb372a2b_0
+matplotlib=3.9.2=py310h2ec42d9_0
+matplotlib-base=3.9.2=py310h56dc6a7_0
 matplotlib-inline=0.1.7=pyhd8ed1ab_0
 mdurl=0.1.2=pyhd8ed1ab_0
 mistune=3.0.2=pyhd8ed1ab_0
+munkres=1.1.4=pyh9f0ad1d_0
 narwhals=1.5.3=pyhd8ed1ab_0
 nbclient=0.10.0=pyhd8ed1ab_0
 nbconvert=7.16.4=hd8ed1ab_1
@@ -187,6 +197,7 @@ pydeck=0.8.0=pyhd8ed1ab_0
 pygments=2.18.0=pyhd8ed1ab_0
 pyobjc-core=10.3.1=py310h445dc1f_0
 pyobjc-framework-cocoa=10.3.1=py310h445dc1f_0
+pyparsing=3.1.2=pyhd8ed1ab_0
 pysocks=1.7.1=pyha2e5f31_6
 python=3.10.13=h00d2728_1_cpython
 python-dateutil=2.9.0=pyhd8ed1ab_0
@@ -197,6 +208,7 @@ python_abi=3.10=5_cp310
 pytz=2024.1=pyhd8ed1ab_0
 pyyaml=6.0.2=py310h936d840_0
 pyzmq=26.2.0=py310hfe2c05e_0
+qhull=2020.2=h3c5361c_5
 qtconsole-base=5.5.2=pyha770c72_0
 qtpy=2.4.1=pyhd8ed1ab_0
 re2=2023.09.01=hb168e87_2
@@ -233,6 +245,7 @@ typing_extensions=4.12.2=pyha770c72_0
 typing_utils=0.1.0=pyhd8ed1ab_0
 tzdata=2024a=h0c530f3_0
 tzlocal=5.2=py310h2ec42d9_0
+unicodedata2=15.1.0=py310h6729b98_0
 uri-template=1.3.0=pyhd8ed1ab_0
 urllib3=2.2.2=pyhd8ed1ab_1
 validators=0.33.0=pyhd8ed1ab_0
