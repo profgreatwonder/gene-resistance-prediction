@@ -52,7 +52,7 @@ import numpy as np
 from sklearn.ensemble import RandomForestClassifier
 
 # Load your trained model (replace 'PIQRF.pkl' with your model file)
-model = joblib.load('./PIQRF.pkl')
+model = joblib.load('PIQRF.pkl')
 
 # Function to preprocess the uploaded data
 def preprocess_data(uploaded_file):
