@@ -7,3 +7,5 @@ Antimalaria Resistance Prediction Machine learning project
 1. export FLASK_APP=app.py
 2. flask run
 3. flask run --debug
+
+- streamlit run app.py
