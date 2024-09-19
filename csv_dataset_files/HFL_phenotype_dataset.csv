@@ -1,0 +1,37 @@
+sequence_id,Consensus_sequence,label
+ERR029088_1.fastq,,Resistant
+ERR012494_1.fastq, consensus_sequence30,Resistant
+ERR012519_1.fastq,consensus_sequence33,Resistant
+ERR012425_1.fastq,consensus_sequence24,Sensitive
+ERR012424_1.fastq,consensus_sequence23,Sensitive
+ERR029413_1.fastq,,Resistant
+ERR029095_1.fastq,consensus_sequence6,Resistant
+ERR012481_1.fastq, consensus_sequence29,Resistant
+ERR029096_1.fastq,consensus_sequence7,Resistant
+ERR205935_1.fastq, consensus_sequence9,Resistant
+ERR205934_1.fastq,,Resistant
+ERR029411_1.fastq, consensus_sequence8,Resistant
+ERR029089_1.fastq,,Resistant
+ERR012277_1.fastq, consensus_sequence16,Resistant
+ERR012228_1.fastq,consensus_sequence11,Resistant
+ERR012287_1.fastq, consensus_sequence17,Resistant
+ERR012509_1.fastq, consensus_sequence31,Resistant
+ERR012226_1.fastq,consensus_sequence1,Resistant
+ERR012353_1.fastq, consensus_sequence21,Resistant
+ERR012328_1.fastq,consensus_sequence2,Resistant
+ERR012409_1.fastq, consensus_sequence22,Resistant
+ERR012428_1.fastq, consensus_sequence25,Resistant
+ERR029083_1.fastq, consensus_sequence5,Resistant
+ERR012274_1.fastq, consensus_sequence15,Resistant
+ERR012493_1.fastq, consensus_sequence3,Resistant
+ERR012469_1.fastq, consensus_sequence28,Resistant
+ERR012260_1.fastq, consensus_sequence13,Sensitive
+ERR012311_1.fastq,consensus_sequence18,Sensitive
+ERR012269_1.fastq, consensus_sequence14,Sensitive
+ERR012227_1.fastq, consensus_sequence10,Sensitive
+ERR029084_1.fastq,,Resistant
+ERR012462_1.fastq,consensus_sequence27,Resistant
+ERR012330_1.fastq, consensus_sequence20,Resistant
+ERR012446_1.fastq, consensus_sequence26,Resistant
+ERR012317_1.fastq,consensus_sequence19,Resistant
+ERR012762_1.fastq, consensus_sequence4,Sensitive

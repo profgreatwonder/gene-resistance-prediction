@@ -1,0 +1,34 @@
+Accession_no,sequence_id,Consensus_sequence,label
+ERS010455,ERR012494_1.fastq, consensus_sequence30,Sensitive
+ERS010435,ERR012519_1.fastq,consensus_sequence33,Sensitive
+ERS010454,ERR012425_1.fastq,consensus_sequence24,Sensitive
+ERS010464,ERR012424_1.fastq,consensus_sequence23,Sensitive
+ERS016368,ERR029095_1.fastq,consensus_sequence6,Sensitive
+ERS010641,ERR012481_1.fastq, consensus_sequence29,Sensitive
+ERS016369,ERR029096_1.fastq,consensus_sequence7,Sensitive
+ERS017460,ERR205935_1.fastq, consensus_sequence9,Sensitive
+ERS017455,ERR029411_1.fastq, consensus_sequence8,Sensitive
+ERS010401 ,ERR012277_1.fastq, consensus_sequence16,Sensitive
+ERS010402,ERR012228_1.fastq,consensus_sequence11,Sensitive
+ERS010403,ERR012287_1.fastq, consensus_sequence17,Sensitive
+ERS010407 ,ERR012509_1.fastq, consensus_sequence31,Sensitive
+ERS010408,ERR012226_1.fastq,consensus_sequence1,Sensitive
+ERS010409 ,ERR012353_1.fastq, consensus_sequence21,Sensitive
+ERS010410,ERR012328_1.fastq,consensus_sequence2,Sensitive
+ERS010451,ERR012409_1.fastq, consensus_sequence22,Sensitive
+ERS010638,ERR012428_1.fastq, consensus_sequence25,Sensitive
+ERS016370,ERR029083_1.fastq, consensus_sequence5,Resistant
+ERS010411 ,ERR012274_1.fastq, consensus_sequence15,Sensitive
+ERS010412,ERR012493_1.fastq, consensus_sequence3,Sensitive
+ERS010457,ERR012469_1.fastq, consensus_sequence28,Sensitive
+ERS010413 ,ERR012260_1.fastq, consensus_sequence13,Sensitive
+ERS010414,ERR012311_1.fastq,consensus_sequence18,Sensitive
+ERS010461,ERR012269_1.fastq, consensus_sequence14,Sensitive
+ERS010452,ERR012227_1.fastq, consensus_sequence10,Sensitive
+ERS010462,ERR012462_1.fastq,consensus_sequence27,Sensitive
+ERS010644,ERR012232_1.fastq, consensus_sequence12,Resistant
+ERS010416 ,ERR012330_1.fastq, consensus_sequence20,Sensitive
+ERS010415,ERR012446_1.fastq, consensus_sequence26,Sensitive
+ERS010453,ERR012317_1.fastq,consensus_sequence19,Sensitive
+ERS010640,ERR012518_1.fastq, consensus_sequence32,Resistant
+ERS010438,ERR012762_1.fastq, consensus_sequence4,Sensitive
