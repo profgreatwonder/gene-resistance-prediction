@@ -41,7 +41,7 @@ LUM_phenotype_model = load('./pickle_files/LUM_phenotype.pkl')
 PIQ_phenotype_model = load('./pickle_files/PIQ_phenotype.pkl')
 quinine_phenotype_model = load('./pickle_files/quinine_phenotype.pkl')
 
-st.write(subprocess.run(['pip', 'freeze'], capture_output=True, text=True).stdout)
+# st.write(subprocess.run(['pip', 'freeze'], capture_output=True, text=True).stdout)
 
 # chloroquine_phenotype_model = joblib.load('/opt/anaconda3/envs/ML-Project-on-Resistance-Prediction/resistance-prediction/pickle_files/chloroquine_phenotype.pkl')
 # DHA_phenotype_model = joblib.load('/opt/anaconda3/envs/ML-Project-on-Resistance-Prediction/resistance-prediction/pickle_files/DHA_phenotype.pkl')
