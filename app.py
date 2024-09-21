@@ -13,7 +13,7 @@ except ImportError:
     install_joblib()
     import joblib
 
-# import joblib
+import joblib
 import numpy as np
 from sklearn.exceptions import NotFittedError
 from Bio import SeqIO
