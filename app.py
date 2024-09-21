@@ -1,5 +1,7 @@
 import streamlit as st
 import pandas as pd
+import subprocess
+import sys
 
 # Install joblib if it's not already installed
 def install_joblib():
@@ -17,8 +19,7 @@ from sklearn.exceptions import NotFittedError
 from Bio import SeqIO
 import requests
 from io import StringIO
-import subprocess
-import sys
+
 
 
 
