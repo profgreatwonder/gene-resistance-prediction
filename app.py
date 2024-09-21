@@ -1,17 +1,17 @@
 import streamlit as st
 import pandas as pd
 import subprocess
-import sys
+# import sys
 
 # Install joblib if it's not already installed
-def install_joblib():
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "joblib"])
+# def install_joblib():
+#     subprocess.check_call([sys.executable, "-m", "pip", "install", "joblib"])
 
-try:
-    import joblib
-except ImportError:
-    install_joblib()
-    import joblib
+# try:
+#     import joblib
+# except ImportError:
+#     install_joblib()
+#     import joblib
 
 import joblib
 import numpy as np
