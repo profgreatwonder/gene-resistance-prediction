@@ -107,8 +107,8 @@ pyarrow==17.0.0
 pycparser==2.22
 pydeck==0.8.0b4
 Pygments==2.18.0
-pyobjc-core==10.3.1
-pyobjc-framework-Cocoa==10.3.1
+# pyobjc-core==10.3.1
+# pyobjc-framework-Cocoa==10.3.1
 pyparsing==3.1.2
 PySocks==1.7.1
 python-dateutil==2.9.0
