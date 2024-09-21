@@ -39,7 +39,12 @@ On the UI, we have the option to upload a file from our computer or enter a link
 
         conda env export --no-builds > requirements.yml
 
-**Note**: _--no-builds_ makes sure that the technologies are not generated with the versions specified to the operating system used for the project.
+**Note 1**: _--no-builds_ makes sure that the technologies are not generated with the versions specified to the operating system used for the project.
+
+**Note 2**: the code below present in all the notebook is important to help generate the present working directory for your machine. With it, you can replace the filepath present in the project with the right location on your local.
+
+        import os
+        print("Current working directory:", os.getcwd())
 
 ## Dataset Description
 
