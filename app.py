@@ -13,7 +13,9 @@ import subprocess
 #     install_joblib()
 #     import joblib
 
+# import joblib
 import joblib
+from joblib import load
 import numpy as np
 from sklearn.exceptions import NotFittedError
 from Bio import SeqIO
@@ -25,12 +27,19 @@ from io import StringIO
 
 
 # Load your trained models (ensure each one is fitted)
-chloroquine_phenotype_model = joblib.load('./pickle_files/chloroquine_phenotype.pkl')
-DHA_phenotype_model = joblib.load('./pickle_files/DHA_phenotype.pkl')
-HFL_phenotype_model = joblib.load('./pickle_files/HFL_phenotype.pkl')
-LUM_phenotype_model = joblib.load('./pickle_files/LUM_phenotype.pkl')
-PIQ_phenotype_model = joblib.load('./pickle_files/PIQ_phenotype.pkl')
-quinine_phenotype_model = joblib.load('./pickle_files/quinine_phenotype.pkl')
+# chloroquine_phenotype_model = joblib.load('./pickle_files/chloroquine_phenotype.pkl')
+# DHA_phenotype_model = joblib.load('./pickle_files/DHA_phenotype.pkl')
+# HFL_phenotype_model = joblib.load('./pickle_files/HFL_phenotype.pkl')
+# LUM_phenotype_model = joblib.load('./pickle_files/LUM_phenotype.pkl')
+# PIQ_phenotype_model = joblib.load('./pickle_files/PIQ_phenotype.pkl')
+# quinine_phenotype_model = joblib.load('./pickle_files/quinine_phenotype.pkl')
+
+chloroquine_phenotype_model = load('./pickle_files/chloroquine_phenotype.pkl')
+DHA_phenotype_model = load('./pickle_files/DHA_phenotype.pkl')
+HFL_phenotype_model = load('./pickle_files/HFL_phenotype.pkl')
+LUM_phenotype_model = load('./pickle_files/LUM_phenotype.pkl')
+PIQ_phenotype_model = load('./pickle_files/PIQ_phenotype.pkl')
+quinine_phenotype_model = load('./pickle_files/quinine_phenotype.pkl')
 
 st.write(subprocess.run(['pip', 'freeze'], capture_output=True, text=True).stdout)
 
