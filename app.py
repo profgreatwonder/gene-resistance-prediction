@@ -1,54 +1,18 @@
 import streamlit as st
 import pandas as pd
-import subprocess
-# import sys
-
-# Install joblib if it's not already installed
-# def install_joblib():
-#     subprocess.check_call([sys.executable, "-m", "pip", "install", "joblib"])
-
-# try:
-#     import joblib
-# except ImportError:
-#     install_joblib()
-#     import joblib
-
-# import joblib
-# import joblib
-from joblib import load
+import joblib
 import numpy as np
 from sklearn.exceptions import NotFittedError
 from Bio import SeqIO
 import requests
 from io import StringIO
 
-
-
-
-
-# Load your trained models (ensure each one is fitted)
-# chloroquine_phenotype_model = joblib.load('./pickle_files/chloroquine_phenotype.pkl')
-# DHA_phenotype_model = joblib.load('./pickle_files/DHA_phenotype.pkl')
-# HFL_phenotype_model = joblib.load('./pickle_files/HFL_phenotype.pkl')
-# LUM_phenotype_model = joblib.load('./pickle_files/LUM_phenotype.pkl')
-# PIQ_phenotype_model = joblib.load('./pickle_files/PIQ_phenotype.pkl')
-# quinine_phenotype_model = joblib.load('./pickle_files/quinine_phenotype.pkl')
-
-chloroquine_phenotype_model = load('./pickle_files/chloroquine_phenotype.pkl')
-DHA_phenotype_model = load('./pickle_files/DHA_phenotype.pkl')
-HFL_phenotype_model = load('./pickle_files/HFL_phenotype.pkl')
-LUM_phenotype_model = load('./pickle_files/LUM_phenotype.pkl')
-PIQ_phenotype_model = load('./pickle_files/PIQ_phenotype.pkl')
-quinine_phenotype_model = load('./pickle_files/quinine_phenotype.pkl')
-
-# st.write(subprocess.run(['pip', 'freeze'], capture_output=True, text=True).stdout)
-
-# chloroquine_phenotype_model = joblib.load('/opt/anaconda3/envs/ML-Project-on-Resistance-Prediction/resistance-prediction/pickle_files/chloroquine_phenotype.pkl')
-# DHA_phenotype_model = joblib.load('/opt/anaconda3/envs/ML-Project-on-Resistance-Prediction/resistance-prediction/pickle_files/DHA_phenotype.pkl')
-# HFL_phenotype_model = joblib.load('/opt/anaconda3/envs/ML-Project-on-Resistance-Prediction/resistance-prediction/pickle_files/HFL_phenotype.pkl')
-# LUM_phenotype_model = joblib.load('/opt/anaconda3/envs/ML-Project-on-Resistance-Prediction/resistance-prediction/pickle_files/LUM_phenotype.pkl')
-# PIQ_phenotype_model = joblib.load('/opt/anaconda3/envs/ML-Project-on-Resistance-Prediction/resistance-prediction/pickle_files/PIQ_phenotype.pkl')
-# quinine_phenotype_model = joblib.load('/opt/anaconda3/envs/ML-Project-on-Resistance-Prediction/resistance-prediction/pickle_files/quinine_phenotype.pkl')
+chloroquine_phenotype_model = joblib.load('./pickle_files/chloroquine_phenotype.pkl')
+DHA_phenotype_model = joblib.load('./pickle_files/DHA_phenotype.pkl')
+HFL_phenotype_model = joblib.load('./pickle_files/HFL_phenotype.pkl')
+LUM_phenotype_model = joblib.load('./pickle_files/LUM_phenotype.pkl')
+PIQ_phenotype_model = joblib.load('./pickle_files/PIQ_phenotype.pkl')
+quinine_phenotype_model = joblib.load('./pickle_files/quinine_phenotype.pkl')
 
 # Function to preprocess the uploaded data (FASTA/FASTQ)
 def preprocess_data(file_content, file_format, expected_length=4000000):
