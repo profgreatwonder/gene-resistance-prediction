@@ -105,10 +105,11 @@ def make_predictions(data, selected_drug):
 # If data is available, process and predict
 if 'data' in locals():
     try:
-        predictions = make_predictions(data, selected_drug)
-        if predictions is not None:
-            st.write("Predictions:")
-            st.write(predictions)
+        with st.spinner('Processing and making predictions, please wait...'):
+            predictions = make_predictions(data, selected_drug)
+            if predictions is not None:
+                st.write("Predictions:")
+                st.write(predictions)
 
             # Optionally save predictions to a file
             save_predictions = st.checkbox("Save predictions to CSV")
