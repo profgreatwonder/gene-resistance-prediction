@@ -1,20 +1,21 @@
-# Drug Resistance Prediction
+# Gene Resistance Prediction
 
 ## Project Goal
 
 This project aimed to develop predictive models for drug resistance testing for the drugs listed below:
+
 - Chloroquine
 - Dihydroartemisinin
 - Lumefantrine
 - Quinine
 - Halofantrine
-- and Piperaquine. 
+- and Piperaquine.
 
 ## Project Desciption
 
-It is focused on gene resistance prediction, allowing users to upload genome sequence files, which is then preprocessed and fed into machine learning models for resistance prediction. This work utilized both software engineering and machine learning expertise to deliver a solution that could assist researchers in making informed decisions about drug resistance. 
+It is focused on gene resistance prediction, allowing users to upload genome sequence files, which is then preprocessed and fed into machine learning models for resistance prediction. This work utilized both software engineering and machine learning expertise to deliver a solution that could assist researchers in making informed decisions about drug resistance.
 
-Models were built using dataset for each of the drugs provided (Chloroquine, Dihydroartemisinin, Lumefantrine, Quinine, Halofantrine, and Piperaquine). Six(6) different models were generated from the dataset representing each of the drugs. These models were then stored in pickle files with User Interface(UI) and Application Programming Interface(API) created using streamlit. The model was tested locally using files stored in *consensus_sequences* folder through streamlit in the file *app.py*. When the required results were achieved, it was finally deployed to streamlit cloud at this [Link](https://gene-resistance-prediction-aazkmjfvmmyzd84umrstv5.streamlit.app/).
+Models were built using dataset for each of the drugs provided (Chloroquine, Dihydroartemisinin, Lumefantrine, Quinine, Halofantrine, and Piperaquine). Six(6) different models were generated from the dataset representing each of the drugs. These models were then stored in pickle files with User Interface(UI) and Application Programming Interface(API) created using streamlit. The model was tested locally using files stored in _consensus_sequences_ folder through streamlit in the file _app.py_. When the required results were achieved, it was finally deployed to streamlit cloud at this [Link](https://gene-resistance-prediction-aazkmjfvmmyzd84umrstv5.streamlit.app/).
 
 ### Interacting with the Project UI
 
@@ -55,7 +56,9 @@ On the UI, we have the option to upload a file from our computer or enter a link
         print("Current working directory:", os.getcwd())
 
 ## Dataset Description
+
 The dataset has columns:
+
 - Accession_no
 - sequence_id
 - Consensus_sequence
@@ -64,14 +67,14 @@ The dataset has columns:
 ## Software and Tools
 
 1. **VSCODE**: for managing, writing, and organizing code efficiently, with debugging and version control features.
-2. **Jupyter Notebook**: used within VSCode for writing and executing Python code, visualizing data, and documenting the workflow seamlessly in one environment. 
+2. **Jupyter Notebook**: used within VSCode for writing and executing Python code, visualizing data, and documenting the workflow seamlessly in one environment.
 3. **Git/Github**: for version control and connecting to streamlit for deployment
-5. **Python**: for developing machine learning models and data processing.
-6. **Scikit-learn**: for building predictive models.
-7. **Streamlit**: for deploying the application and providing an interactive interface.
-8. **Pandas and NumPy**: for handling and transforming the dataset.
-9. **Joblib**: for model serialization.
-10. **BioPython**: for parsing genomic sequences in FASTA and FASTQ formats.
+4. **Python**: for developing machine learning models and data processing.
+5. **Scikit-learn**: for building predictive models.
+6. **Streamlit**: for deploying the application and providing an interactive interface.
+7. **Pandas and NumPy**: for handling and transforming the dataset.
+8. **Joblib**: for model serialization.
+9. **BioPython**: for parsing genomic sequences in FASTA and FASTQ formats.
 
 ## Replicating the Project
 
@@ -108,7 +111,8 @@ To run the streamlit UI, we have to run the command below in our terminal:
         streamlit run app.py
 
 ## Summary of Findings
-To test the model both locally and in production to see how the model fares, different genome sequence files were used from the *consensus_sequences* folder but for the purpose of this summary, we will be using the *consensus_sequence14.fa* file. Below is a table that captures the results:
+
+To test the model both locally and in production to see how the model fares, different genome sequence files were used from the _consensus_sequences_ folder but for the purpose of this summary, we will be using the _consensus_sequence14.fa_ file. Below is a table that captures the results:
 
 <div align = "center">
 <table>
@@ -141,9 +145,9 @@ To test the model both locally and in production to see how the model fares, dif
                 <td>Sensitive</td>
         </tr>
 
-        
 </table>
 </div>
 
 ## Conclusion
+
 In the future, we hope to achieve the creation of a pipeline where models are automatically built as new drugs are added for testing against different genome sequence.
