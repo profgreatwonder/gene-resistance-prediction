@@ -1,4 +1,4 @@
-# Gene Resistance Prediction
+# Drug Resistance Prediction
 
 ## Project Goal
 
