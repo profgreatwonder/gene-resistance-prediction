@@ -25,7 +25,7 @@ On the UI, we have the option to upload a file from our computer or enter a link
 
 ### Links
 
-- Project Interface: https://gene-resistance-prediction-aazkmjfvmmyzd84umrstv5.streamlit.app/
+- Project Interface: https://gene-resistance-prediction-j4md35fqdoubzbyekqhans.streamlit.app/
 - GitHub Repository: https://github.com/profgreatwonder/resistance-prediction
 - Documentation: https://github.com/profgreatwonder/resistance-prediction#README
 
